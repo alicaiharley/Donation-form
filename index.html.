@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hurricane Donation Form</title>
+</head>
+<body style="margin:0; display:flex; justify-content:center; padding:20px;">
+
+  <iframe 
+    src="https://donorbox.org/embed/westmoreland-ja-hurricane-relief-fund?" 
+    name="donorbox" 
+    allowpaymentrequest="allowpaymentrequest" 
+    seamless="seamless" 
+    frameborder="0" 
+    scrolling="no" 
+    height="900px" 
+    width="100%" 
+    style="max-width:500px; min-width:250px; border:none;" 
+    allow="payment">
+  </iframe>
+
+  <script src="https://donorbox.org/widget.js" paypalExpress="false"></script>
+
+</body>
+</html>
